@@ -18,6 +18,8 @@ header {
     display: flex;
     gap: 20px;
     grid-gap: 20px;
+    position:fixed;
+    width: 100%;
 }
 
 .logo {
@@ -180,14 +182,17 @@ ul.menu {
   ul.menu li {
     display: inline-block;
     position: relative;
+    
   }
 
   ul.menu li a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000;
-    background-color: #f1f1f1;
+    background: #e96acd;
+    color: white;
+    font-family: 'Sigmar', cursive;
+
   }
 
   ul.menu li:hover > ul.submenu {
