@@ -35,13 +35,22 @@ header {
     gap: 10px;
     grid-gap: 10px;
 }
-
+.menu_clases {
+    background: white;
+    border: 5px solid white;
+    color: #e96acd;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5%;
+    font-family: 'Sigmar', cursive;
+}
 .menu__item a {
     background: white;
     border: 5px solid white;
     color: #e96acd;
     text-decoration: none;
     padding: 1rem;
+    border-radius: 5%;
     font-family: 'Sigmar', cursive;
 }
 
@@ -66,23 +75,20 @@ header {
     background: black;
 }
 
-.menu__item:last-child a {
-    background: black;
-}
 
-.menu__item a:empty {
-    background: green;
-}
 
-.menu__item a:not(.menu__link) {
-    border-color: rgb(148, 37, 100);
-}
+
 
 .menu__item a:hover {
     background: #e96acd;
     color: white;
 }
 
+.menu_clases:hover{
+    background: #e96acd;
+    color: white;
+
+}
 
 
 .imagenPrincipal {
@@ -116,8 +122,15 @@ header {
     color: black;
 }
 
+.titclases h2::first-letter {
+    color: #e96acd;
+}
 
-
+.titclases h2 {
+    color: rgb(39, 11, 39);
+    padding-inline: 15px;
+    font-family: 'Kanit', sans-serif;
+}
 
 
 .tarjetitas {
