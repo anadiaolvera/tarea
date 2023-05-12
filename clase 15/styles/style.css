@@ -46,37 +46,6 @@ header {
     border-radius: 5%;
     font-family: 'Sigmar', cursive;
 }
-.menu__item a {
-    background: white;
-    border: 5px solid white;
-    color: #e96acd;
-    text-decoration: none;
-    padding: 1rem;
-    border-radius: 5%;
-    font-family: 'Sigmar', cursive;
-}
-
-.menu__item select{
-    background: white;
-    border: 4px solid white;
-    color: #e96acd;
-    text-decoration: none;
-    
-    font-family: 'Sigmar', cursive;
-}
-
-
-/******************* PSEUDOCLASES *******************/
-.menu__item:nth-child(2) a {
-    background: #f2f0f5;
-    border: 5px solid #a13389;
-    color: rgb(243, 79, 204);
-}
-
-.menu__item:first-child a {
-    background: black;
-}
-
 
 
 
@@ -104,6 +73,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding-inline: 200px;
+    padding-top: 20rem;
 }
 
 
@@ -113,6 +83,7 @@ header {
     background-color: rgba(0, 0, 0, 0.596);
     padding-inline: 15px;
     font-family: 'Kanit', sans-serif;
+   
 }
 
 .imagenPrincipal h2::first-letter {
